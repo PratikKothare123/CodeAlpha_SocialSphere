@@ -20,7 +20,7 @@ app.use(
   cors({
     origin: [
       'http://localhost:5173',
-      'https://your-frontend.vercel.app'
+      'https://pratiksocialsphere-co8rkytly-pratiks-projects-7b933d8c.vercel.app'
     ],
     credentials: true,
   })
