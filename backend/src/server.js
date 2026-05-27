@@ -16,11 +16,12 @@ const app = createApp();
 // Middleware
 app.use(express.json());
 
+
 app.use(
   cors({
     origin: [
-      'http://localhost:5173',
-      'https://pratiksocialsphere-co8rkytly-pratiks-projects-7b933d8c.vercel.app'
+      "http://localhost:5173",
+      "https://pratiksocialsphere-co8rkytly-pratiks-projects-7b933d8c.vercel.app",
     ],
     credentials: true,
   })
