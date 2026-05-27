@@ -31,8 +31,6 @@ app.get("/", (req, res) => {
   res.send("SocialSphere API Running 🚀");
 });
 
-app.use("/api/auth", authRoutes);
-app.use("/api/posts", postRoutes);
 
 // Start Server
 app.listen(PORT, '0.0.0.0', () => {
