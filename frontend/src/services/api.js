@@ -1,9 +1,15 @@
 import axios from 'axios';
 
+const rawApiUrl =
+  import.meta.env.VITE_API_URL ||
+  'http://localhost:5001/api';
+
+const normalizedApiUrl = rawApiUrl.replace(/\/+$/, '');
+
 export const api = axios.create({
-  baseURL:
-    import.meta.env.VITE_API_URL ||
-    'http://localhost:5001/api',
+  baseURL: normalizedApiUrl.endsWith('/api')
+    ? normalizedApiUrl
+    : `${normalizedApiUrl}/api`,
   withCredentials: true,
 });
 

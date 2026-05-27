@@ -1,6 +1,4 @@
 import './config/env.js';
-import express from 'express';
-import cors from 'cors';
 
 import { createApp } from './app.js';
 import { connectDB } from './config/db.js';
@@ -12,19 +10,6 @@ await connectDB();
 
 // Create App
 const app = createApp();
-
-// Middleware
-app.use(express.json());
-
-app.use(
-  cors({
-    origin: [
-      'http://localhost:5173',
-      'https://pratiksocialsphere-co8rkytly-pratiks-projects-7b933d8c.vercel.app',
-    ],
-    credentials: true,
-  })
-);
 
 // Test Route
 app.get('/', (req, res) => {
