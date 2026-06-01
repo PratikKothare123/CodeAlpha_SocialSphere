@@ -7,12 +7,12 @@ A full-stack social media platform built using the MERN stack where users can cr
 # 🌐 Live Demo
 
 ## Frontend
-https://your-frontend.vercel.app
+https://pratiksocialsphere.vercel.app/login
 
 ## Backend API
 https://socialsphere-4mts.onrender.com
 
-> Replace frontend URL with your deployed Vercel URL.
+
 
 ---
 
@@ -179,58 +179,16 @@ npm run dev
 cd frontend
 npm run dev
 ```
-
----
-
-# 🌐 API Endpoints
-
-## Auth Routes
-
-```bash
-/api/auth/signup
-/api/auth/login
-/api/auth/me
-```
-
----
-
-## User Routes
-
-```bash
-/api/users/explore
-/api/users/:username
-/api/users/:id/follow
-```
-
----
-
-## Post Routes
-
-```bash
-/api/posts
-/api/posts/feed
-/api/posts/:id
-/api/posts/:id/like
-```
-
----
-
-## Comment Routes
-
-```bash
-/api/comments/post/:postId
-```
-
 ---
 
 # 📸 Screenshots
 
-Add screenshots here after deployment.
+
 
 Example:
 
 ```md
-![Home Page](./screenshots/home.png)
+![Home Page](./ScreenShot/Screenshot%202026-05-31%20082536.png)
 ```
 
 ---
@@ -296,7 +254,7 @@ This project is licensed under the MIT License.
 Full Stack Developer 🚀
 
 ### 🌐 Live Project
-https://your-frontend.vercel.app
+https://pratiksocialsphere.vercel.app/login
 
 ### 💻 GitHub
-https://github.com/yourusername
+https://github.com/PratikKothare123/CodeAlpha_SocialSphere
