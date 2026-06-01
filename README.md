@@ -188,7 +188,7 @@ npm run dev
 Example:
 
 ```md
-![Home Page](./ScreenShot/Screenshot%202026-05-31%20082536.png)
+![Home Page](/ScreenShot/Screenshot%202026-05-31%20082536.png)
 ```
 
 ---
